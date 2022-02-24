@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{50811DE4-9C94-463F-8A7B-70E9C218B7D1}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{50811DE4-9C94-463F-8A7B-70E9C218B7D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Master_Soundbank" ID="{FE126E13-1C42-4AB9-A65F-83C04F61BBF1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Switch" ID="{B42ABD5F-2EC7-401E-8D6F-5338E96FC2B3}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rest" ID="{7D76881C-A3C3-4082-99B0-920F312FE252}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambience" ID="{4577A02E-A972-4162-BA83-4D427BAD88C3}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Almighty_Push" ID="{1586DC3A-280C-419C-BFC9-F443B1B0639E}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Ambience" ID="{CDE2EB1E-6263-41F4-B389-3F4A9258CBF1}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Satan_May_Cry" ID="{84AE87D1-BEEA-4206-9D6C-1CEAAA27876E}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Test" ID="{2C40610F-8F37-420A-8511-EBA18CE12F86}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Red_Tongue" ID="{D9A2F1B1-A14C-4240-82FC-7A501FF7EDE2}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UnitDeath" ID="{19F03008-FE91-428F-B1CD-C1C94659792D}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_Audio" ID="{6731365A-2EAA-42D3-9E81-96261EEBD85F}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Hard_Vacuum" ID="{0E48849A-19FA-43BC-8F76-C26765FADEF0}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Click" ID="{9906D89C-6404-445A-8F64-EBE03B5934B9}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Collect" ID="{1230D3CB-5ABB-454A-8417-FE998B4FEDF6}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Soulsap" ID="{8257A91F-BF9C-4588-8A7E-9FEA2343CE63}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{023E4A69-1108-4619-84B6-1BC0C1B2DA50}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shove" ID="{49CF02C1-B0B9-46E2-A86A-87307461E8F0}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_New_Round" ID="{09470533-40BA-47F5-A67C-1A4E92410299}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Tears_Of_Tomorrow" ID="{032DE18F-690B-4A60-850A-DFAB560A48E5}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Healing_Vapours" ID="{9E11022A-1763-4CA5-BD14-5F36FCCD3E47}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lightning_Bolt" ID="{D39577E3-81CF-4F2B-BB84-90689A61AC18}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_Audio" ID="{E383E978-D528-4F5B-8F6C-1925C19F9AAB}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

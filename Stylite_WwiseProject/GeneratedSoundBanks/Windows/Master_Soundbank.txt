@@ -1,0 +1,70 @@
+Event	ID	Name			Wwise Object Path	Notes
+	49168678	Play_Lightning_Bolt			\Default Work Unit\Play_Lightning_Bolt	
+	81759402	Play_Switch			\Default Work Unit\Play_Switch	
+	267520438	Play_UnitDeath			\Default Work Unit\Play_UnitDeath	
+	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
+	311910498	Play_Click			\Default Work Unit\Play_Click	
+	589943719	Resume_Audio			\Default Work Unit\Resume_Audio	
+	1220610377	Play_Hard_Vacuum			\Default Work Unit\Play_Hard_Vacuum	
+	1283628644	Play_Satan_May_Cry			\Default Work Unit\Play_Satan_May_Cry	
+	1363738541	Play_Healing_Vapours			\Default Work Unit\Play_Healing_Vapours	
+	1371055891	Play_Tears_Of_Tomorrow			\Default Work Unit\Play_Tears_Of_Tomorrow	
+	1818962541	Play_Soulsap			\Default Work Unit\Play_Soulsap	
+	1916633650	Play_Red_Tongue			\Default Work Unit\Play_Red_Tongue	
+	2225033368	Play_Collect			\Default Work Unit\Play_Collect	
+	2440454529	Play_New_Round			\Default Work Unit\Play_New_Round	
+	2477713992	Stop_Ambience			\Default Work Unit\Stop_Ambience	
+	2536351260	Play_Rest			\Default Work Unit\Play_Rest	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3027535757	Play_Shove			\Default Work Unit\Play_Shove	
+	3157003241	Test			\Default Work Unit\Test	
+	3216475458	Play_Almighty_Push			\Default Work Unit\Play_Almighty_Push	
+	4122976862	Pause_Audio			\Default Work Unit\Pause_Audio	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	Music_State			\Default Work Unit\Music_State	
+
+State	ID	Name	State Group			Notes
+	251412225	Shop	Music_State			
+	375726501	Mission	Music_State			
+	748895195	None	Music_State			
+	1593864692	Defeat	Music_State			
+	2607556080	Menu	Music_State			
+	2716678721	Victory	Music_State			
+	3762955427	Tutorial	Music_State			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2919018221	UnitHealth			\Default Work Unit\UnitHealth	
+
+Effect plug-ins	ID	Name	Type				Notes
+	994525625	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	33420516	STYL_Transition-Shop_60bpm4-4_L2M_P1M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Shop\STYL_Transition-Shop_60bpm4-4_L2M_P1M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Shop_Looper\STYL_Transition-Shop_60bpm4-4_L2M_P1M\STYL_Transition-Shop_60bpm4-4_L2M_P1M		529075
+	101122382	STYL_Music-Mission_G1-1_85bpm4-4_L32M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Mission_G1-1_85bpm4-4_L32M_D088CE4D.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Tutorial_Looper\Tutorial_Music-System\STYL_Music-Mission_G1-1_85bpm4-4_L32M		2364085
+	163037466	STYL_Music-Menu_107bpm4-4_L40M_P1M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Menu_Looper\STYL_Music-Menu_107bpm4-4_L40M_P1M\STYL_Music-Menu_107bpm4-4_L40M_P1M		2711408
+	168708757	Satan_May_Cry	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\satan_may_cry_DA2406A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Satan_May_Cry		95944
+	191982260	UnitDeath	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\statue_crumble_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Units\UnitDeath		50341
+	199823999	Hard_Vacuum	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\hard_vacuum_FA4201BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Hard_Vacuum		56109
+	225497618	Almighty_Push	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\almighty_push_35FD2371.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Almighty_Push		138752
+	355594769	Rest	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\healed_6264BF4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Rest		36360
+	360706668	STYL_Music-Shop_60bpm4-4_L32M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Shop\STYL_Music-Shop_60bpm4-4_L32M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Shop_Looper\STYL_Music-Shop_60bpm4-4_L32M\STYL_Music-Shop_60bpm4-4_L32M		3335782
+	384428351	Healing_Vapours	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\healing_vapours_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Healing_Vapours		61793
+	397022822	STYL_Music-Mission_G3-1_85bpm4-4_L32M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Mission_G3-1_85bpm4-4_L32M_5891B4D5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Mission_Looper\Mission_Music-System\STYL_Music-Mission_G3-1_85bpm4-4_L32M		3060540
+	484822916	Mission_Ambience	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\b_Sound Design\STYL_Ambience-Mission_602705A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Mission_Ambience		1654427
+	562869865	STYL_Music-Mission_G1-1_85bpm4-4_L32M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Mission_G1-2_85bpm4-4_L32M_D088CE4D.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Tutorial_Looper\Tutorial_Music-System\STYL_Music-Mission_G1-1_85bpm4-4_L32M		2371472
+	605458670	STYL_Music-Victory_85bpm4-4_L2M_P1M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Victory_85bpm4-4_L2M_P1M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Victory\STYL_Music-Victory_85bpm4-4_L2M_P1M\STYL_Music-Victory_85bpm4-4_L2M_P1M		410503
+	633240645	Soulsap	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\soulsap_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Soulsap		65467
+	665166637	Tears_Of_Tomorrow	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\tears_of_tomorrow_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Tears_Of_Tomorrow		117887
+	677848463	Lightning_Bolt	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\lightning_bolt_3A6479E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Lightning_Bolt		72058
+	679823612	New_Round	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\new_round_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\UI\New_Round		128375
+	714280514	Shove	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\shove_134E1EB7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Shove		36812
+	742286023	STYL_Music-Defeat_85bpm4-4_L4M_P1M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Defeat_85bpm4-4_L4M_P1M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Defeat\STYL_Music-Defeat_85bpm4-4_L4M_P1M\STYL_Music-Defeat_85bpm4-4_L4M_P1M		451735
+	853424903	Click	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\click_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\UI\Click		5048
+	940847734	Switch	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\switch_61E99A01.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Switch		53114
+	945103464	Red_Tongue	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\red_tongue_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\Spells\Red_Tongue		44374
+	970333884	Collect	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\coins_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALL_SFX\UI\Collect		23930
+	1038514966	STYL_Music-Mission_G2-1_85bpm4-4_L32M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Mission_G2-1_85bpm4-4_L32M_46B911A1.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Mission_Looper\Mission_Music-System\STYL_Music-Mission_G2-1_85bpm4-4_L32M		2440960
+	1041940864	STYL_Music-Mission_G1-1_85bpm4-4_L32M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Mission_G1-2_85bpm4-4_L32M_46B911A1.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Mission_Looper\Mission_Music-System\STYL_Music-Mission_G1-1_85bpm4-4_L32M		2371472
+	1062465105	STYL_Music-Mission_G1-1_85bpm4-4_L32M	Z:\Volumes\Projects\01 Clients\S4G\Stylite\d_Repo\Stylite\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Mission\STYL_Music-Mission_G1-1_85bpm4-4_L32M_46B911A1.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Mission_Looper\Mission_Music-System\STYL_Music-Mission_G1-1_85bpm4-4_L32M		2364085
+

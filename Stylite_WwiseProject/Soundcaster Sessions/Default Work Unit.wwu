@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3ED7CE4B-8E8E-4EBD-A13F-3461FAFEF896}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{3ED7CE4B-8E8E-4EBD-A13F-3461FAFEF896}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{A9D5E4B9-E090-4DE7-9F27-391E45C99023}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{023E4A69-1108-4619-84B6-1BC0C1B2DA50}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Red_Tongue" ID="{D9A2F1B1-A14C-4240-82FC-7A501FF7EDE2}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambience" ID="{4577A02E-A972-4162-BA83-4D427BAD88C3}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lightning_Bolt" ID="{D39577E3-81CF-4F2B-BB84-90689A61AC18}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Ambience" ID="{CDE2EB1E-6263-41F4-B389-3F4A9258CBF1}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_New_Round" ID="{09470533-40BA-47F5-A67C-1A4E92410299}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause_Audio" ID="{E383E978-D528-4F5B-8F6C-1925C19F9AAB}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Resume_Audio" ID="{6731365A-2EAA-42D3-9E81-96261EEBD85F}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_UnitDeath" ID="{19F03008-FE91-428F-B1CD-C1C94659792D}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Tears_Of_Tomorrow" ID="{032DE18F-690B-4A60-850A-DFAB560A48E5}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Switch" ID="{B42ABD5F-2EC7-401E-8D6F-5338E96FC2B3}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="7" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Soulsap" ID="{8257A91F-BF9C-4588-8A7E-9FEA2343CE63}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="8" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Shove" ID="{49CF02C1-B0B9-46E2-A86A-87307461E8F0}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="9" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Satan_May_Cry" ID="{84AE87D1-BEEA-4206-9D6C-1CEAAA27876E}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="10" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Rest" ID="{7D76881C-A3C3-4082-99B0-920F312FE252}" WorkUnitID="{5F9D978B-F319-4D04-B5BE-2D622BBE99A3}"/>
+							<Position X="11" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="UnitHealth" ID="{28D1F3A4-D3D2-4260-8D67-EFE7AF25FCFE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume" ID="{C9218C6E-2F6A-439D-80D7-7CFA5E7FA42B}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume" ID="{8EFEC1B5-FA47-48F3-93D6-7A6CB9655E20}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume" ID="{DCEA6E8C-E255-49AC-A290-C098BE20DF97}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Menu" ID="{A08C6306-122D-4C75-8FC0-50C08660818E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

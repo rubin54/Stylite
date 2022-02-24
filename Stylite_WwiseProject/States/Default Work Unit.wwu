@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C06ED7B4-0F46-4E5F-AA3B-1A1AB722FD85}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{C06ED7B4-0F46-4E5F-AA3B-1A1AB722FD85}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_State" ID="{8385C237-2CD3-45C1-8399-83D5BAD7A1DD}">
+					<ChildrenList>
+						<State Name="None" ID="{22735205-9462-4DB4-8DD5-3EB264F41D46}"/>
+						<State Name="Menu" ID="{A08C6306-122D-4C75-8FC0-50C08660818E}"/>
+						<State Name="Shop" ID="{12AAA79A-17C0-4207-8C95-3C42AEB77728}"/>
+						<State Name="Mission" ID="{05F89BD3-AD20-4A18-A6DD-DFAC0DA2BE54}"/>
+						<State Name="Victory" ID="{71D6EC1A-FB5E-44CA-B4B5-391924A89306}"/>
+						<State Name="Defeat" ID="{614AB341-977B-430F-9959-1DAC86AE8ED5}"/>
+						<State Name="Tutorial" ID="{D4404670-6A98-49CC-99F4-BD2C8626136F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

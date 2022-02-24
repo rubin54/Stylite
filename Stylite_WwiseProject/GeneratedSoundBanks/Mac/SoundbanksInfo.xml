@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/jeremyfrobose/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/01 Clients/S4G/Stylite/d_Repo/Stylite/Stylite/Stylite_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/jeremyfrobose/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/01 Clients/S4G/Stylite/d_Repo/Stylite/Stylite/Stylite_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/jeremyfrobose/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/01 Clients/S4G/Stylite/d_Repo/Stylite/Stylite/Stylite_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/jeremyfrobose/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Projects/01 Clients/S4G/Stylite/d_Repo/Stylite/Stylite/Stylite_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4208700535">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2469504869" Language="SFX" Hash="4212042252">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master_Soundbank</ObjectPath>
+			<ShortName>Master_Soundbank</ShortName>
+			<Path>Master_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4122976862" Name="Pause_Audio" ObjectPath="\Events\Default Work Unit\Pause_Audio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3216475458" Name="Play_Almighty_Push" ObjectPath="\Events\Default Work Unit\Play_Almighty_Push" DurationType="OneShot" DurationMin="5.734133" DurationMax="7.224555">
+					<IncludedMemoryFiles>
+						<File Id="225497618" Language="SFX">
+							<ShortName>almighty_push.wav</ShortName>
+							<Path>SFX/almighty_push_35FD2371.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="484822916" Language="SFX">
+							<ShortName>b_Sound Design\STYL_Ambience-Mission.wav</ShortName>
+							<Path>SFX/b_Sound Design/STYL_Ambience-Mission_602705A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="311910498" Name="Play_Click" ObjectPath="\Events\Default Work Unit\Play_Click" DurationType="OneShot" DurationMin="0.210438" DurationMax="0.210438">
+					<IncludedMemoryFiles>
+						<File Id="853424903" Language="SFX">
+							<ShortName>click.wav</ShortName>
+							<Path>SFX/click_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2225033368" Name="Play_Collect" ObjectPath="\Events\Default Work Unit\Play_Collect" DurationType="OneShot" DurationMin="0.681521" DurationMax="0.681521">
+					<IncludedMemoryFiles>
+						<File Id="970333884" Language="SFX">
+							<ShortName>coins_01.wav</ShortName>
+							<Path>SFX/coins_01_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1220610377" Name="Play_Hard_Vacuum" ObjectPath="\Events\Default Work Unit\Play_Hard_Vacuum" DurationType="OneShot" DurationMin="2.269602" DurationMax="2.269602">
+					<IncludedMemoryFiles>
+						<File Id="199823999" Language="SFX">
+							<ShortName>hard_vacuum.wav</ShortName>
+							<Path>SFX/hard_vacuum_FA4201BA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1363738541" Name="Play_Healing_Vapours" ObjectPath="\Events\Default Work Unit\Play_Healing_Vapours" DurationType="OneShot" DurationMin="2.768708" DurationMax="3.292567">
+					<IncludedMemoryFiles>
+						<File Id="384428351" Language="SFX">
+							<ShortName>healing_vapours.wav</ShortName>
+							<Path>SFX/healing_vapours_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="49168678" Name="Play_Lightning_Bolt" ObjectPath="\Events\Default Work Unit\Play_Lightning_Bolt" DurationType="OneShot" DurationMin="3.269030" DurationMax="4.118720">
+					<IncludedMemoryFiles>
+						<File Id="677848463" Language="SFX">
+							<ShortName>lightning_bolt.wav</ShortName>
+							<Path>SFX/lightning_bolt_3A6479E8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="33420516" Language="SFX">
+							<ShortName>a_Music\Shop\STYL_Transition-Shop_60bpm4-4_L2M_P1M.wav</ShortName>
+							<Path>SFX/a_Music/Shop/STYL_Transition-Shop_60bpm4-4_L2M_P1M_179463A7.wem</Path>
+						</File>
+						<File Id="101122382" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Mission_G1-1_85bpm4-4_L32M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Mission_G1-1_85bpm4-4_L32M_D088CE4D.wem</Path>
+						</File>
+						<File Id="163037466" Language="SFX">
+							<ShortName>a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M.wav</ShortName>
+							<Path>SFX/a_Music/Menu/STYL_Music-Menu_107bpm4-4_L40M_P1M_179463A7.wem</Path>
+						</File>
+						<File Id="360706668" Language="SFX">
+							<ShortName>a_Music\Shop\STYL_Music-Shop_60bpm4-4_L32M.wav</ShortName>
+							<Path>SFX/a_Music/Shop/STYL_Music-Shop_60bpm4-4_L32M_179463A7.wem</Path>
+						</File>
+						<File Id="397022822" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Mission_G3-1_85bpm4-4_L32M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Mission_G3-1_85bpm4-4_L32M_5891B4D5.wem</Path>
+						</File>
+						<File Id="562869865" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Mission_G1-2_85bpm4-4_L32M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Mission_G1-2_85bpm4-4_L32M_D088CE4D.wem</Path>
+						</File>
+						<File Id="605458670" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Victory_85bpm4-4_L2M_P1M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Victory_85bpm4-4_L2M_P1M_179463A7.wem</Path>
+						</File>
+						<File Id="742286023" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Defeat_85bpm4-4_L4M_P1M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Defeat_85bpm4-4_L4M_P1M_179463A7.wem</Path>
+						</File>
+						<File Id="1038514966" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Mission_G2-1_85bpm4-4_L32M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Mission_G2-1_85bpm4-4_L32M_46B911A1.wem</Path>
+						</File>
+						<File Id="1041940864" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Mission_G1-2_85bpm4-4_L32M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Mission_G1-2_85bpm4-4_L32M_46B911A1.wem</Path>
+						</File>
+						<File Id="1062465105" Language="SFX">
+							<ShortName>a_Music\Mission\STYL_Music-Mission_G1-1_85bpm4-4_L32M.wav</ShortName>
+							<Path>SFX/a_Music/Mission/STYL_Music-Mission_G1-1_85bpm4-4_L32M_46B911A1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2440454529" Name="Play_New_Round" ObjectPath="\Events\Default Work Unit\Play_New_Round" DurationType="OneShot" DurationMin="3.282646" DurationMax="3.282646">
+					<IncludedMemoryFiles>
+						<File Id="679823612" Language="SFX">
+							<ShortName>new_round_01.wav</ShortName>
+							<Path>SFX/new_round_01_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1916633650" Name="Play_Red_Tongue" ObjectPath="\Events\Default Work Unit\Play_Red_Tongue" DurationType="OneShot" DurationMin="1.548268" DurationMax="1.841212">
+					<IncludedMemoryFiles>
+						<File Id="945103464" Language="SFX">
+							<ShortName>red_tongue.wav</ShortName>
+							<Path>SFX/red_tongue_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2536351260" Name="Play_Rest" ObjectPath="\Events\Default Work Unit\Play_Rest" DurationType="OneShot" DurationMin="1.115312" DurationMax="1.115312">
+					<IncludedMemoryFiles>
+						<File Id="355594769" Language="SFX">
+							<ShortName>healed.wav</ShortName>
+							<Path>SFX/healed_6264BF4C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1283628644" Name="Play_Satan_May_Cry" ObjectPath="\Events\Default Work Unit\Play_Satan_May_Cry" DurationType="OneShot" DurationMin="3.105876" DurationMax="3.913158">
+					<IncludedMemoryFiles>
+						<File Id="168708757" Language="SFX">
+							<ShortName>satan_may_cry.wav</ShortName>
+							<Path>SFX/satan_may_cry_DA2406A1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3027535757" Name="Play_Shove" ObjectPath="\Events\Default Work Unit\Play_Shove" DurationType="OneShot" DurationMin="1.634106" DurationMax="1.943291">
+					<IncludedMemoryFiles>
+						<File Id="714280514" Language="SFX">
+							<ShortName>shove.wav</ShortName>
+							<Path>SFX/shove_134E1EB7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1818962541" Name="Play_Soulsap" ObjectPath="\Events\Default Work Unit\Play_Soulsap" DurationType="OneShot" DurationMin="2.776333" DurationMax="3.497960">
+					<IncludedMemoryFiles>
+						<File Id="633240645" Language="SFX">
+							<ShortName>soulsap.wav</ShortName>
+							<Path>SFX/soulsap_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="81759402" Name="Play_Switch" ObjectPath="\Events\Default Work Unit\Play_Switch" DurationType="OneShot" DurationMin="2.895302" DurationMax="2.895302">
+					<IncludedMemoryFiles>
+						<File Id="940847734" Language="SFX">
+							<ShortName>switch.wav</ShortName>
+							<Path>SFX/switch_61E99A01.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1371055891" Name="Play_Tears_Of_Tomorrow" ObjectPath="\Events\Default Work Unit\Play_Tears_Of_Tomorrow" DurationType="OneShot" DurationMin="4.005562" DurationMax="4.005562">
+					<IncludedMemoryFiles>
+						<File Id="665166637" Language="SFX">
+							<ShortName>tears_of_tomorrow.wav</ShortName>
+							<Path>SFX/tears_of_tomorrow_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="267520438" Name="Play_UnitDeath" ObjectPath="\Events\Default Work Unit\Play_UnitDeath" DurationType="OneShot" DurationMin="1.763689" DurationMax="1.979674">
+					<IncludedMemoryFiles>
+						<File Id="191982260" Language="SFX">
+							<ShortName>statue_crumble_01.wav</ShortName>
+							<Path>SFX/statue_crumble_01_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="589943719" Name="Resume_Audio" ObjectPath="\Events\Default Work Unit\Resume_Audio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2477713992" Name="Stop_Ambience" ObjectPath="\Events\Default Work Unit\Stop_Ambience" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="98.831757" DurationMax="98.831757">
+					<IncludedMemoryFiles>
+						<File Id="163037466" Language="SFX">
+							<ShortName>a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M.wav</ShortName>
+							<Path>SFX/a_Music/Menu/STYL_Music-Menu_107bpm4-4_L40M_P1M_179463A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2919018221" Name="UnitHealth" ObjectPath="\Game Parameters\Default Work Unit\UnitHealth"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3826569560" Name="Music_State" ObjectPath="\States\Default Work Unit\Music_State" GUID="{8385C237-2CD3-45C1-8399-83D5BAD7A1DD}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_State\None" GUID="{22735205-9462-4DB4-8DD5-3EB264F41D46}"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music_State\Menu" GUID="{A08C6306-122D-4C75-8FC0-50C08660818E}"/>
+						<State Id="251412225" Name="Shop" ObjectPath="\States\Default Work Unit\Music_State\Shop" GUID="{12AAA79A-17C0-4207-8C95-3C42AEB77728}"/>
+						<State Id="375726501" Name="Mission" ObjectPath="\States\Default Work Unit\Music_State\Mission" GUID="{05F89BD3-AD20-4A18-A6DD-DFAC0DA2BE54}"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\Music_State\Victory" GUID="{71D6EC1A-FB5E-44CA-B4B5-391924A89306}"/>
+						<State Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\Music_State\Defeat" GUID="{614AB341-977B-430F-9959-1DAC86AE8ED5}"/>
+						<State Id="3762955427" Name="Tutorial" ObjectPath="\States\Default Work Unit\Music_State\Tutorial" GUID="{D4404670-6A98-49CC-99F4-BD2C8626136F}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
