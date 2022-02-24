@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8216656081685605349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8216656081685605351}
+  - component: {fileID: 8216656081685605348}
+  m_Layer: 0
+  m_Name: Hex_OuterPit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8216656081685605351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216656081685605349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8452603208186250391}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8216656081685605348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216656081685605349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c127d317118b2d4d8aa72ac76c69b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _offsetCoord: {x: 0, y: 0}
+  hitbox: {fileID: 1574273553097190785}
+  firePrefab: {fileID: 6409953990151755269, guid: 8f580b7b2f70e72478c62e60d041627c, type: 3}
+  InitiativeModifier: 0
+  IsTaken: 0
+  IsConductive: 1
+  isFlamable: 0
+  DamageByForcedTraversal: 0
+  MovementCost: 99
+  HexGridType: 0
+  hexagonRenderer: {fileID: 7279647724140183544}
+  HealthShiftForStandingUnit: 0
+  headerContent: Pit
+  bodyContent: Conductive;Instantkill on enter
+--- !u!1001 &8216656082599881740
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8216656081685605351}
+    m_Modifications:
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9659258
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2588191
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 864990562789339681, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_Name
+      value: SM_Water_Tile_Outer_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 864990562789339681, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 64
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3955719295630826191, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+--- !u!1 &9081083657719160365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 864990562789339681, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+  m_PrefabInstance: {fileID: 8216656082599881740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8452603208186250391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 525444486108539035, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+  m_PrefabInstance: {fileID: 8216656082599881740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7279647724140183544 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1657865782776828916, guid: 701931c64b1f8074ab3c2ef0662457fb, type: 3}
+  m_PrefabInstance: {fileID: 8216656082599881740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1574273553097190785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9081083657719160365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8031d399eda14a04997aba2b6c6c041d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
