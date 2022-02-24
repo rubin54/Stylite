@@ -1,4 +1,7 @@
 # Stylite (Student Project @S4G)
+![](https://github.com/rubin54/Stylite/blob/main/Assets/Art/2D/Stylite%20Main%20Menu%20Illustration%20final%20(1).png)
+Art Made By [Caroline Buchmann](https://www.instagram.com/feliecho_official/)
+
 Homepage: https://s4g.itch.io/stylite
 
 # 3D Turn Based Strategy Game Made In Unity
