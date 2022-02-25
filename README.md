@@ -13,7 +13,7 @@ Stylite is a turn-based strategy game wherein the player must defeat a series of
 
 # Roles
 - Gameplay
-- Audio & VFX
+- Audio&VFX
 
 # Engine/Languages
 - Unity, C#
@@ -23,6 +23,8 @@ Stylite is a turn-based strategy game wherein the player must defeat a series of
 - Implemented A*Pathfinding
 - Implemented Wwise
 - Created Glow Shader Effect with Shader Graph
+
+# YOUTUBE VIDEO WIP
 
 
 # Documentation
