@@ -24,6 +24,8 @@ Stylite is a turn-based strategy game wherein the player must defeat a series of
 - Implemented Wwise
 - Created Glow Shader Effect with Shader Graph
 
+# Gameplay Video
+
 [![Youtube Video](https://img.youtube.com/vi/LBYI5nq6Cxw/0.jpg)](https://www.youtube.com/watch?v=LBYI5nq6Cxw)
 
 
